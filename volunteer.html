@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Zion National Park - About
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="banner">
+            Zion National Park
+        </div>
+
+        <div id="nav_bar">
+            <div id="nav_links">
+                |
+                <a href="index.html">About Zion</a>|
+                <a href="volunteer.html">Get Involved</a>|
+                <a href="plan.html">Plan Your Visit</a>|
+                <a href="wildlife.html">Park Wildlife</a>|
+            </div>
+        </div>
+
+        <div id="main_container">
+            <div id="heading" style="background-color: rgb(241, 255, 172)">
+                <h1>Get Involved at Zion National Park</h1>
+                <h3 style="display: flex; justify-content: center;">
+                    Please complete the following form below if your are interested
+                    in volunteering at Zion.
+                </h3>
+            </div>
+
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <div>
+                        <label for="firstName">First name:</label>
+                        <input type="text" id="firstName" name="first_name">
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last name:</label>
+                        <input type="text" id="lastName" name="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <div>
+                        <label for="citizen">Check this box if you are a U.S. Citizen:</label>
+                        <input type="checkbox" id="citizen" name="citizen" value="Citizen">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="comments">If you have any specific skills or volunteer interest, please list below:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+</html>

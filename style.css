@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("zion_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100vw;
+    font: 48px arial;
+    font-weight: bolder;
+    color: white;
+}
+
+#nav_bar {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: black;
+}
+
+#nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1100px;
+    background-color: black;
+    border-left: 100% black solid;
+    border-right: 100% black solid;
+    font: 24px Arial;
+    color: white;
+    height: 40px;
+}
+
+#nav_links > a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 200px
+
+}
+
+#main_container {
+    padding-inline: 300px;
+
+}
+
+#heading {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 5px black solid;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transform: rotate(180deg);
+    transform-origin: center;
+    writing-mode: vertical-rl
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.sub_container {
+    padding: 20px;
+    display: flex;
+    border-bottom: 5px black solid;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px;
+}
+
+.sub_container img {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+fieldset {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border: 0px;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-inline: 250px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 24px;
+    margin: 10px;
+}
+
+input[type=checkbox] {
+    height: 28px;
+    width: 28px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 58px;
+    font-size: 24px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+    font-size: 24px;
+}
+
+#link_grid {
+    display: grid;
+    grid-template: 2fr 2fr / 2fr 2fr;
+    height: 800px;
+    width: 100%;
+}
+
+.grid_box {
+    position: relative;
+    padding: 40px;
+    padding-inline: 100px;
+    font-size: 24px;
+    border-bottom: 5px black solid;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+ul > li {
+    margin: 3px;
+    margin-left: 50px;
+}
+
+ul > ul > li {
+    margin-left: 100px;
+}
+
+li > a {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+#pic_container {
+    display: grid;
+    grid-template: 2fr 2fr / 3fr 3fr 3fr;
+    padding: 20px;
+    border-bottom: 5px black solid;
+}
+
+.pic_container_box {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pic_container_box > a > img {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+em {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
